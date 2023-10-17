@@ -1,0 +1,57 @@
+:root{
+    --bl: rgb(41, 40, 40);
+    --wh: rgb(240, 236, 236);
+    --gr: rgb(235, 164, 65);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.white{
+    color: var(--wh);
+}
+
+img{
+    width: 240px;
+}
+
+/* navbar */
+.bg-navbar{
+    background-color: var(--bl);
+    
+}
+
+.logo{
+    width:  50px;
+}
+
+.navbar-brand{
+    transition: 0.4s;
+
+}
+
+.navbar-brand:hover{
+    scale: 1.1;
+}
+
+.nav-link{
+    color: var(--wh) !important;
+    transition: 0.4s;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-weight: 500;
+
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    scale: 1,2;
+}
+
+li{
+    list-style: none;
+}
+
