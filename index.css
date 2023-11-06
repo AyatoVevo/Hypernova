@@ -1,5 +1,5 @@
 :root{
-    --bl: rgb(41, 40, 40);
+    --bl: rgb(199, 196, 196);
     --wh: rgb(240, 236, 236);
     --gr: rgb(235, 164, 65);
 }
@@ -23,7 +23,7 @@ img{
 }
 
 .logo{
-    width:  50px;
+    width:  160px;
 }
 
 .navbar-brand{
@@ -36,22 +36,38 @@ img{
 }
 
 .nav-link{
-    color: var(--wh) !important;
+    color: rgb(22, 22, 22);
     transition: 0.4s;
 }
 
 .nav-item{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
 
     transition: 0.4s;
 }
 
 .nav-link:hover{
-    scale: 1,2;
+    scale: 1.1;
 }
 
 li{
     list-style: none;
 }
 
+/* header */
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-image: url(img/logo.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 480px) {
+    header{
+        height:40vh;
+    }
+  }
