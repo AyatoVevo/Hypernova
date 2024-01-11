@@ -12,6 +12,10 @@ html{
     color: var(--wh);
 }
 
+.black{
+    color: black;
+}
+
 img{
     width: 240px;
 }
