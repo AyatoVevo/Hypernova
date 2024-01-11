@@ -58,16 +58,16 @@ li{
 /* header */
 
 header{
-    height: 20vh;
     width: 100%;
+    height: 20vh;
     background-image: url(img/logo.png);
-    background-size: 70%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 @media screen and (min-width: 480px) {
     header{
-        height:40vh;
+        height:30vh;
     }
   }
