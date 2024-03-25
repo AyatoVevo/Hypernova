@@ -70,6 +70,13 @@ header{
     background-position: center;
 }
 
+.bgabout{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/bgheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media screen and (min-width: 480px) {
     header{
         height:30vh;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hypernova</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/081c0a950a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
   </head>
 
@@ -20,22 +21,22 @@
         </div>
       </div>
     </header>
+
+    
     <!-- navbar -->
 
-
-
     <nav class="navbar navbar-expand-lg bg-navbar sticky-top">
-        <div class="container-fluid">
-    
-            <a class="navbar-brand" href="homepage.html">
-            <img src="img/logo.png" alt="logo" class="img-fluid logo"></a>
+      <div class="container-fluid">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-fish fa-2x wh"></i>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
+          <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" class="img-fluid logo"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#about">Chi siamo</a>
@@ -43,48 +44,68 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#work">I nostri lavori</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">Noi</a>
+              </li>
             </ul>
-
-          </div>
+          </ul>
         </div>
+      </div>
     </nav>
 
+    <!-- header -->
+    <section class="container-fluid bgabout h-100" id="about">
+      <div class="row py-5">
+          <div class="col-12 col-md-6 col-lg-8 white py-5">
+            <h2 class="display-6">Se non sai dove andare, chiedi a noi!</h2>
+            <p class="fs-5">Specializzati nell'ambito dello sviluppo Web</p>
 
-    <!-- about us -->
-    <section class="container-fluid bg-dark px-5 h-100" id="about">
-        <div class="row py-5 justify-content-center">
-            <div class="col-12 col-md-6 col-lg-8 white text-center py-5">
-                <img src="img\foto badge.jpeg" alt="img" class="img-fluid">
-                <h2 class=" display-6 fw-bold  py-4 border-bottom">Draghia Alin</h2>
-                <p class="fs-3 ">
-                  Appassionato programmatore con una fervente passione per l'informatica e lo sviluppo. Diplomato in Web Development, ho acquisito competenze solide e diverse nel mondo della programmazione, mettendo a frutto la mia curiosità e ambizione.</p>
-
-                <p class="fs-4">
-                  La mia avventura nel web development ha contribuito a plasmare le mie competenze in linguaggi quali HTML, CSS, JavaScript e PHP, permettendomi di creare esperienze utente coinvolgenti e interattive.</p>
-
-                <p class="fs-4">
-                  La mia passione per il coding è il motore che mi spinge a cercare soluzioni innovative e a contribuire al mondo dello sviluppo software.</p>
-                
-                <p class="fs-4">
-                  Attualmente, sto studiando sempre di più PHP per ampliare ulteriormente le mie competenze. Determinato e sempre alla ricerca di nuovi traguardi, un giorno vorrei lanciarmi anche nel mondo del game development acquisendo conoscenze di C# e C++.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-8 white text-center py-5 border-top border-bottom">
-              
-              <h2 class=" display-6 fw-bold">Skills</h2>
-              <p class="fs-4">HTML & CSS</p>
-              <p class="fs-4">JavaScript</p>
-              <p class="fs-4">PHP</p>
-              <p class="fs-4">MySQL</p>
-              <p class="fs-4">Laravel</p>
-              <p class="fs-4">Adobe Photoshop</p>
-              <p class="fs-4">Blender 3D</p>
-              <p class="fs-4">Video Editing </p>
-              
           </div>
-        </div>
-    </section>
+      </div>
+  </section>
 
+
+    <!-- skills -->
+    <section class="container-fluid bg-dark h-100" id="about">
+      <div class="row py-5 border-top border-bottom white">
+        <div class="row justify-content-center align-items-center text-center">
+
+          <h2 class=" display-6 fw-bold">Skills</h2>
+
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-html5 display-1"><p class="fs-4 py-2">Html</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-css3-alt display-1"><p class="fs-4 py-2">Css</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-php display-1"><p class="fs-4 py-2">Php</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-database display-1"><p class="fs-4 py-2">SQL</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-js display-1"><p class="fs-4 py-2">JavaScript</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-solid fa-image display-1"><p class="fs-4 py-2">Photoshop</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-solid fa-video display-1"><p class="fs-4 py-2">Video Edit</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-brands fa-unity display-1"><p class="fs-4 py-2">Unity</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-solid fa-screwdriver-wrench display-1"><p class="fs-4 py-2">Hardware</p></i>
+          </div>
+          <div class="col-lg-3 py-5">
+            <i class="fa-solid fa-cube display-1"><p class="fs-4 py-2">Blender3D</p></i>            
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- i nostri lavori -->
 
     <section class="container-fluid bg-dark py-5" id="work">
